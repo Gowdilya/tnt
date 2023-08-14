@@ -1,0 +1,23 @@
+@import "../../Shared/styles/variables.scss";
+
+.next-button{
+    text-align: right !important;
+    .step-next-button{
+        margin-bottom: 10px!important;
+        margin-right:10px !important;
+    }
+
+    .step-next-button.show{
+        background-color: $sera-rouge !important;
+        color:white!important;
+        margin-right:10px !important;
+    }
+}
+
+.field-text{
+    text-align: center;
+}
+
+.search{
+    margin-top:5px !important;
+}

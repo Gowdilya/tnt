@@ -1,0 +1,1 @@
+export const CR = 'Enter'; //Carriage Return

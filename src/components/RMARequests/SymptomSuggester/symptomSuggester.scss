@@ -1,0 +1,14 @@
+.symptom-suggester{
+    text-align: center;
+    .symptom-header{
+        margin-top:0px;
+    }
+    .MuiFormControl-root{
+        margin-top:5px !important;
+        width: 100%;
+        max-width:300px;
+        [class*="PrivateNotchedOutline-legendNotched"]{
+            max-width:170px !important;
+        }
+    }
+}

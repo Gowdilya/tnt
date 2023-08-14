@@ -1,0 +1,20 @@
+.ImageList{
+    background-color:#32303a !important ;
+    border-radius: 0px 0px 12.5px 0px;
+    min-width:100%!important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px !important;
+
+    .MuiChip-root{
+        margin:5px !important;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px !important;
+        background-color: #2196f3 !important;
+    }
+    .MuiChip-icon{
+       //background-color:  #2196f3 !important;
+       //box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px !important;
+       color:#32303a !important ;
+
+    }
+
+
+}

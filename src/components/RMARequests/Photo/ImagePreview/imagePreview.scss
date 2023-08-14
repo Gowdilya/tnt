@@ -1,0 +1,53 @@
+@import '../../../Shared/styles/variables.scss';
+.demo-image-preview {
+
+    .preview-close{
+      background-color:$sera-rouge !important;
+      color: white !important;
+      opacity:1 !important;
+      margin-top:5px;
+      padding: 8px !important;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px !important;
+      margin:5px;
+      margin-top:30px;
+
+    }
+    .preview-delete{
+      background-color:$sera-rouge !important;
+      color: white !important;
+      opacity:1 !important;
+      margin-top:5px;
+      padding: 8px !important;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px !important;
+      margin:5px;
+      margin-top:25px;
+    }
+    position: relative;
+    .image-container {
+      min-width:280px;
+      //text-align: center;
+        .preview{ 
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px !important;
+          display: inline-block;
+          width:90%;
+          .preview-header{
+            color:white;
+            font-weight: bold;
+            background-color: #32303a !important;
+            text-align:center;
+          }
+          &>img{
+          width:100%;
+      }
+    }
+      .side-panel{
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px !important;
+        display: inline-block;
+        width: 50px;
+        background-color: #32303a !important;
+        border-radius: 0px 12.5px 12.5px 0px;
+        height: 100%;
+        position:absolute;
+      }
+    }
+  }

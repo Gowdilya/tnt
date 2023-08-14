@@ -1,0 +1,61 @@
+@import '../../styles/variables.scss';
+
+
+
+.message{
+    margin:auto;
+    text-align: center;
+    display: block;
+    width: inherit;
+    word-wrap: break-word;
+}
+ 
+.vertical-alignment-helper{
+    display:table;
+    height: 100%;
+    width: 100%;
+}
+.vertical-align-center{
+    display: table-cell;
+    vertical-align: middle;
+
+}
+ 
+.confirmation-modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    max-width: 90vw;
+    height: 200px;
+    margin: 0 auto;
+    background-color: white;
+   .message {
+    padding: 30px;
+   }
+
+ 
+    .MuiSvgIcon-root {
+        color: black !important;
+        margin:5px;;
+    }
+    .update-button{
+        background-color: red!important;
+
+       
+        margin-right:10px !important;
+        color:white !important;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px !important;
+        }
+    .button{
+        margin-top:20px;
+    }
+    .close{
+
+        top:3px;
+        right:-17px;
+  
+        .MuiSvgIcon-root {
+            color: white !important;
+            margin:5px;;
+        }
+    }
+
+}

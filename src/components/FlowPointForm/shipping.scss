@@ -1,0 +1,29 @@
+@import '../Shared/styles/variables.scss';
+
+
+
+
+
+
+.cart{
+    //background-color: #fff59d;
+    text-align: center;
+    border: 1px solid  #eeeeee;
+}
+.prods{
+    //background-color: #fff59d;
+    text-align: center;
+    border: 1px solid  #eeeeee;
+}
+
+.time{
+    background-color:   #eeeeee;
+}
+.update-button.show{
+    margin:5px;
+    float: right !important;
+    background-color: $sera-rouge;
+    color:white !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px !important;
+
+}

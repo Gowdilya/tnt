@@ -1,0 +1,24 @@
+@import '../../Shared/styles/variables.scss';
+.symptom-selector{
+    text-align: center;
+    //width:300px;
+    .MuiList-root{
+        width:300px !important;
+    }
+    .MuiFormControl-root{
+        width:300px !important;
+        
+    }
+  
+
+
+}
+.Mui-selected{
+    background-color:$sera-rouge !important;
+    color:white !important;
+}
+.suggest-new-icon{
+    font-size: 2.0rem !important;
+    margin-right: 5px !important;
+    color: rgba(0, 0, 0, 0.38) !important;
+}

@@ -1,0 +1,30 @@
+@import '../../Shared/styles/variables.scss';
+.article-search-field{
+    margin-bottom:10px !important;
+    [class*="PrivateNotchedOutline-legendNotched"]{
+        max-width:65px !important;
+    }
+}
+
+.qr-buttn{
+    background-color: $sera-rouge !important;
+    color:white!important;
+    margin:0px 0px !important;
+}
+.qr-container.green{
+    section{
+        section{
+            div{
+                box-shadow: rgb(12, 211, 38) 0px 0px 0px 5px inset !important;
+            }
+        }
+    }
+}
+
+.close{
+    background-color:$sera-rouge !important;
+    color: white !important;
+    opacity:1 !important;
+    margin-right: 22px !important;
+    bottom: 25px !important;
+}

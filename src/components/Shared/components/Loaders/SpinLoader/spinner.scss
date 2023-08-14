@@ -1,0 +1,16 @@
+@import '../../../styles/variables.scss';
+
+ .MuiCircularProgress-root{
+    color:$sera-rouge !important;
+    width: 60px !important;
+    height: 60px !important;
+    //left:50%;
+    //text-align: center;
+   // margin:auto;
+}
+.spin-container{
+    text-align: center;
+}
+.spinner{
+    //text-align: center;
+}

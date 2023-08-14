@@ -1,0 +1,42 @@
+@import '../../../styles/variables.scss';
+
+body{margin:0;height:50vh;}
+.bouncy
+{
+  height:30px;
+  width:30px;
+  background: $sera-rouge;
+  border-radius:50%;
+  margin: 0 auto;left:0;right:0;position:absolute;
+  top:350px;
+  animation: bounce 1s infinite cubic-bezier(0.30, 2.80, 0.85, 2.50);
+/*   transform: translateY(-200px); */
+  transform: translateY(-20px);
+  
+  &.dark
+  {
+    background: $sera-rouge-dark;
+    left:-80px;
+    animation-delay:0.3s;
+  }
+  &.lightest
+  {
+    background: $sera-rouge-light;
+    right:-80px;
+    animation-delay:0.1s;
+  }
+}
+
+
+@keyframes bounce
+{
+  from, to {
+    transform: translateY(0px);
+    height: 26px;
+  }
+  80% {
+   transform: translateY(-20px);
+    height: 30px;
+  }
+  
+}

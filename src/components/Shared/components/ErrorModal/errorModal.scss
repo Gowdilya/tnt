@@ -1,0 +1,60 @@
+
+
+.error-modal{
+
+.message{
+    margin:auto;
+    text-align: center;
+    display: block;
+    width: inherit;
+    word-wrap: break-word;
+}
+ 
+.vertical-alignment-helper{
+    display:table;
+    height: 100%;
+    width: 100%;
+}
+.vertical-align-center{
+    display: table-cell;
+    vertical-align: middle;
+}
+ 
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width: 90vw;
+    max-height:200px;
+    min-height:100px;
+    /* To center horizontally */
+    margin: 0 auto;
+   
+ 
+ 
+    .MuiSvgIcon-root {
+        color: black !important;
+        margin:5px;;
+    }
+    .update-button{
+        background-color: red!important;
+       
+        margin-right:10px !important;
+        color:white !important;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px !important;
+        }
+    .button{
+        margin-top:20px;
+    }
+    .close{
+        position:absolute;
+        top:0;
+        right:0;
+    }
+
+}
+.errorBox{ 
+    background-color: #d32f2f;
+    box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2), 0px 6px 10px 0px rgba(0,0,0,0.14), 0px 1px 18px 0px rgba(0,0,0,0.12);
+    border: 1px solid red;
+    color:rgba(0, 0, 0, 0.87);
+}
+}

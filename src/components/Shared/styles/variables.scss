@@ -1,0 +1,16 @@
+// Color Variables 
+// checkout https://material-ui.com/customization/color/#color-tool for good selection of colors to use!
+//$teal-green:#009688 !important;
+$teal-green:rgb(50, 48, 58)!important;
+$red-orange:#d84315;
+$carton-brown:#795548;
+$lock-grey:#424242;
+$sera-grey:#32303a;
+
+$sera-rouge:#ed1a39;
+$sera-rouge-light: scale-color($sera-rouge, $lightness: +30%);
+$sera-rouge-dark: scale-color($sera-rouge, $lightness: -30%);
+
+//Fonts
+$standard-font-size: 1.25rem;
+$standard-font-fam: "Roboto", "Helvetica", "Arial", sans-serif;

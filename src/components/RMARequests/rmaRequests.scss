@@ -1,0 +1,37 @@
+
+
+
+.request-container{
+    .article-info{
+        margin:auto;
+        margin-top:5px;
+        border:2px solid blue;
+        text-align: center;
+        width:300px;
+        font-weight:bold;
+
+    }
+    .symptom-header{
+        margin-top:30px;
+        text-align: center;
+        font-weight: bold;
+    }   
+    .pic-buttons{
+        text-align: center !important;
+        .pic-button{
+            width: 100px !important;
+            margin: 15px !important;
+            text-align: center !important;
+            &.camera{
+                background-color: #2196f3 !important;
+            }
+            &.clip{
+                background-color:#00c853 !important;
+            }
+        } 
+    }
+    .empty-row{
+        height:10px;
+        width:100%;
+    }
+}

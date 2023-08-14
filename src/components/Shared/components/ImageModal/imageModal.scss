@@ -1,0 +1,63 @@
+@import '../../styles/variables.scss';
+
+.image-modal{
+    display:table;
+    height: 100%;
+    width: 100%;
+.message{
+    margin:auto;
+    text-align: center;
+    display: block;
+    width: inherit;
+    word-wrap: break-word;
+}
+.vertical-align-center{
+    display: table-cell;
+    vertical-align: middle;
+}
+ 
+.modal-content {
+    min-height:72vh;
+    margin: 0 auto;
+    .photos{
+        max-width:90vw;
+        margin: auto;
+        max-height:70vh;
+    }
+ 
+    .MuiSvgIcon-root {
+        color: black !important;
+        margin:5px;;
+    }
+    .update-button{
+        background-color: red!important;
+       
+        margin-right:10px !important;
+        color:white !important;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px !important;
+        }
+    .button{
+        margin-top:20px;
+    }
+   
+
+}
+.errorBox{ 
+    //background-color: #3f51b5;
+    background-color: $sera-grey;
+    box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2), 0px 6px 10px 0px rgba(0,0,0,0.14), 0px 1px 18px 0px rgba(0,0,0,0.12);
+   //border: 1px solid rgb(119, 0, 255);
+    color:rgba(0, 0, 0, 0.87);
+    width: min-content;
+    padding: 5px;
+
+        .close{
+            top: 0;
+            right: 0;
+            max-height: 35px;
+            max-width: 35px;
+            margin-right: 0px !important;
+            position: absolute;
+        }
+    }
+}

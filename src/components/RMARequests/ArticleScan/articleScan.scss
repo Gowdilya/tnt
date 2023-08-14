@@ -1,0 +1,12 @@
+@import '../../Shared/styles/variables.scss';
+.article-search-field{
+    margin-bottom:5px !important;
+    [class*="PrivateNotchedOutline-legendNotched"]{
+        max-width:65px !important;
+    }
+}
+
+.qr-button{
+    background-color: $sera-rouge !important;
+    color:white!important;
+}

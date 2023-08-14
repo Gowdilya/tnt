@@ -1,0 +1,39 @@
+.transformationSet{
+ 
+  text-align: center;
+  box-sizing: none;
+  padding-bottom: 20px;
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: fit-content;
+        max-width: 500px;
+        margin: auto;
+        display:block;
+        box-shadow: none !important;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+
+      td:nth-child(3) {
+        min-width: 113px;
+      }
+      .edit-action-button{
+        margin-top:10px;
+        margin-bottom:10px;
+        width: 220px!important;
+        background-color: #3f51b5 !important;
+        color:white !important;
+    }
+}
+.MuiTooltip-popper{
+  font-size: 86px !important;
+}

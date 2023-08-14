@@ -1,0 +1,27 @@
+
+
+.user-management{
+  .main{
+    text-align: center;
+  }
+  .record-container{
+    max-width: 900px;
+    margin: auto;
+  }
+  .rt-td{
+    text-align: center;
+  }
+
+  .ReactTable{
+    max-width:900px;
+    margin:auto !important;
+  }
+  .button-panel{
+    max-width: 900px;
+    margin:auto !important;
+    .update-button{
+      margin:5px;
+      float: right;
+    }
+  }
+}

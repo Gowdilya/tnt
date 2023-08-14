@@ -1,0 +1,40 @@
+@import "../Shared/styles/variables.scss";
+
+.prepare-data {
+  padding-left: 0px;
+  padding-right: 0px;
+  .header-row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .bottom-button-row {
+    text-align: right;
+    padding-bottom: 10px !important;
+    .bottom-nav-button {
+      background-color: $sera-rouge !important;
+      color: white !important;
+    }
+    .MuiButtonBase-root {
+      margin-right: 10px !important;
+    }
+  }
+  .step-container {
+    .container {
+      padding-bottom: 10px !important;
+    }
+  }
+  .source-type-row {
+    display: grid; // or flex!
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    div {
+      display: inline-block;
+    }
+    .source-button {
+      width: 200px !important;
+      background-color: #3f51b5 !important;
+      color: white !important;
+    }
+  }
+}

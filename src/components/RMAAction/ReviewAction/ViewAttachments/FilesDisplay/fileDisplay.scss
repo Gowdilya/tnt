@@ -1,0 +1,30 @@
+@import '../../../../Shared/styles/variables.scss';
+
+.file-display{
+    display:flex;
+    flex-wrap: wrap;
+    .photo-container{
+        margin:auto;
+        margin-top:10px;
+        margin-bottom:10px;
+        text-align: center;
+        width: 132px;
+        //background-color:#3f51b5 ;
+        background-color: $sera-grey;
+        border-radius: 10px 10px 10px 10px;
+        .photos{
+            width:100%;
+            margin: auto;
+ 
+        }
+        .download-button{
+            width: 50px!important;
+            text-align: center;
+            margin: 1px !important;
+            display: inline-block !important;
+            background-color: $sera-rouge;
+            color:white !important; 
+        
+        }
+    }
+}

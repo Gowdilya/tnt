@@ -1,0 +1,69 @@
+.request-container {
+  .final-message{
+    margin-left:20px;
+  }
+  padding-bottom: 10px !important;
+  .button-container {
+    text-align: right;
+  }
+  .update-button.show {
+    margin: 5px;
+    float: none !important;
+    background-color: #ed1a39;
+    color: white !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px,
+      rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px !important;
+  }
+
+  .header-row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+
+  .rma-action-container {
+    .ReactTable {
+      margin-top: 10px;
+      .rt-thead.-headerGroups {
+        background-color: #32303a !important;
+        color: white;
+      }
+    }
+    .empty-row {
+      height: 10px;
+      width: 100%;
+    }
+    .center-child {
+      text-align: center;
+    }
+
+    .article-info {
+      margin: auto;
+      margin-top: 5px;
+      // border:2px solid blue;
+      text-align: center;
+      width: 300px;
+      font-weight: bold;
+    }
+
+    .blue {
+      width: 100%;
+      height: 500px;
+      background-color: blue;
+    }
+    .button-panel {
+      text-align: right;
+    }
+    .update-button.show {
+      margin: 5px;
+      float: none !important;
+      background-color: #ed1a39;
+      color: white !important;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px,
+        rgba(0, 0, 0, 0.14) 0px 1px 1px 0px,
+        rgba(0, 0, 0, 0.12) 0px 2px 1px -1px !important;
+    }
+    .update-button {
+      margin: 5px;
+    }
+  }
+}

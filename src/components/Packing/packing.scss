@@ -1,0 +1,246 @@
+@import '../Shared/styles/variables.scss';
+
+.packing-container{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px;
+    padding-bottom: 20px;
+    .MuiSvgIcon-root{
+           color: $sera-rouge!important;
+         }
+
+    .search{
+        text-align: center;
+        //margin-left:35% !important;
+        margin-top: 5px !important;
+        margin-bottom:10px !important;
+        margin-right: 0px;
+        margin:auto;
+        //max-width: 300px !important;
+        //width:300px;
+        .search-field{
+            text-align: center;
+            margin:auto;
+            //background-color:blue;
+        }
+    }
+    .carton-image{
+        top:-30px;
+        position:relative;
+    }
+    .lock-image{
+        top:-15px;
+        position:relative;
+    }
+    .image{
+        //border: 1px solid  red;
+        height:100px;
+        width:100px;
+        float:right;
+        //z-index: 1;
+        margin-left:25px;
+        top:-50px;
+    
+    }
+    .text{
+        margin-top:15px;
+        margin-bottom:10px;
+        margin-right:43%;
+        padding-left:30px;
+    }
+    .submit{
+        background-color:  $sera-rouge !important;
+        color:white!important;
+    }
+    
+    .shipping-id{
+        background-color: #ffc107;
+        font-weight: 700;
+    }
+    
+    .product-id{
+        background-color: #00b0ff;
+        font-weight: 700;
+    }
+    
+    
+    .shipping-panel{
+        opacity: 0;
+        height: 0;
+        -webkit-transition: height 5.5s linear;
+        -moz-transition: height 5.5s linear;
+        -o-transition: height 5.5s linear;
+        transition: height 5.5s linear;
+    }
+    .shipping-panel.show{
+        -webkit-transition: height 5.5s linear;
+        -moz-transition: height 5.5s linear;
+        -o-transition: height 5.5s linear;
+        transition: height 5.5s linear;
+        opacity:1;
+        height:auto;
+    }
+    
+    
+    .button-column{
+        margin:auto;
+        margin-top:20px;
+        .update-button{
+            float:right;
+        }
+        .update-button.show{
+            background-color: $sera-rouge;
+            color:white !important;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px !important;
+
+        }
+        // max-width:600px;
+        // text-align: center;
+    }
+    
+    table{
+        
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px;
+        td{
+            border: 1px solid  #eeeeee;
+        }
+       
+    }
+    
+    .shipment-info.hide{
+        opacity: 0;
+        height: 0;
+        -webkit-transition: height 5.5s linear;
+        -moz-transition: height 5.5s linear;
+        -o-transition: height 5.5s linear;
+        transition: height 5.5s linear;
+    }
+    
+    .shipment-info{
+        height:auto;
+        -webkit-transition: height 5.5s linear;
+        -moz-transition: height 5.5s linear;
+        -o-transition: height 5.5s linear;
+        transition: height 15.5s linear;
+        opacity:1;
+        
+    }
+    
+    
+    
+    .prods{
+        border: 1px solid  #eeeeee;
+    }
+    
+    .MuiChip-root{
+        //border: 1px solid  black !important;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px;
+        margin:2px !important;
+    }
+    .cart{
+        //background-color: #fff59d;
+        border: 1px solid  #eeeeee;
+    }
+    
+    .carton-table{
+        margin:auto;
+        margin-top:0px;
+        margin-bottom:10px;
+        width:100%;
+        table-layout:fixed;
+        th{
+            //background-color: #ffc107;
+            background-color: $carton-brown;
+            color:white;
+            border: 1px solid  #eeeeee;
+            padding:10px;
+        }
+        td{
+            padding-left:10px;
+            padding-right:10px;
+        }
+    }
+    .carton-date{
+        margin:auto;
+        margin-top:5px;
+        td{
+            padding-left:10px;
+            padding-right:10px;
+        }
+    }
+    
+    .article-table{
+        margin:auto;
+        margin-top:0px;
+        margin-bottom:10px;
+        width:100%;
+        table-layout:fixed;
+
+        th{
+            //background-color: #00b0ff;
+            background-color: $lock-grey;
+            color:white;
+            border: 1px solid  #eeeeee;
+            padding:10px;
+        }
+        td{
+            padding-left:10px;
+            padding-right:10px;
+        }
+    }
+
+   .remove-button{
+       margin-top: 5px !important;
+       margin-bottom: 5px !important;
+       margin-right: 30px;
+       margin-left:10px;
+       max-height: 41px !important;
+       background-color: $lock-grey  ;
+       color:white!important;
+       .MuiSvgIcon-root{
+        margin-left:5px;
+        margin-right: 0px;
+        //background-color: white !important;
+        //color: white!important;
+      }
+
+   }
+    .carton{
+        [class^="PrivateNotchedOutline-legendLabelled-"] {
+            width:66px !important;
+        }
+    }
+    .article{
+        [class^="PrivateNotchedOutline-legendLabelled-"] {
+            width:64px !important;
+        }
+    }
+
+}
+
+.article-count{
+    text-align: center;
+    margin:auto;
+    margin-right:0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    background-color: #424242;
+    color: white;
+    border: 1px solid #eeeeee;
+    padding: 10px;
+
+    display:block;
+    width:31.5%;
+    
+}
+.carton-status{
+    text-align: center;
+    margin:auto;
+    margin-bottom: 0px;
+    font-weight: bold;
+    background-color:$carton-brown;
+    color: white;
+    border: 1px solid #eeeeee;
+    padding: 10px;
+    display:block;
+    width:170px;
+}

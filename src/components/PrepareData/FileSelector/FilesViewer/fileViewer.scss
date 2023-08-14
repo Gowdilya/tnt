@@ -1,0 +1,44 @@
+@import "../../../Shared/styles/variables.scss";
+.fileViewer {
+  //border: solid 1px blue;
+  margin: auto;
+  //text-align: center;
+  padding: 5px;
+  width: 100%;
+  max-width: 700px;
+
+  .window {
+    height: 300px;
+    overflow: scroll;
+  }
+  .file-selected {
+    background-color: #3f51b5;
+  }
+  .reload-button {
+    background-color: #3f51b5 !important;
+    color: white !important;
+    float: right !important;
+    margin-right: 5px;
+  }
+  .delete-button {
+    background-color: $sera-rouge !important;
+    color: white !important;
+    float: right !important;
+  }
+  .delete-button-disabled {
+    float: right !important;
+  }
+  .selection-container {
+    .MuiFormLabel-root {
+      text-align: left !important;
+    }
+  }
+  .MuiSelect-root {
+    width: 200px;
+    //background-color: white !important;
+    padding: 10px;
+  }
+  .upload-destination {
+    border: solid 1px red;
+  }
+}
